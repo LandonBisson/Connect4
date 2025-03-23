@@ -60,8 +60,7 @@ public class Connect4 extends JFrame implements Runnable {
                 if (Piece.isAnimating())
                     return;
                 if (e.BUTTON3 == e.getButton()) {
-                    Board.removeBottom(getSquare(e.getX(), e.getY()));
-                    Player.switchCurrentPlayer();
+                
                 }
                 repaint();
             }
